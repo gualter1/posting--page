@@ -1,0 +1,108 @@
+ * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 20px;
+    }
+
+    h1 {
+        margin: 20px;
+        padding: 20px;
+        font-size: 36px;
+        font-weight: bold;
+        border: 1px solid;
+        border-radius: 20px;
+        background-color: rgb(200 200 200);
+        letter-spacing: 2px;
+        
+    }
+
+    #postagens {
+        margin: 20px;
+        border-top: 2px solid;
+        /* padding: 20px; */
+    }
+
+    #postagens .postagem {
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid;
+        border-radius: 10px;
+    }
+
+    .postagem h2 {
+        font-size: 20px;
+        border-bottom: 1px solid;
+    }
+
+    p {
+        padding: 5px;
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    #form-entrada {
+        padding: 5px;
+        margin: 10px;
+        align-items: center;
+    }
+    
+    form p {
+        font-weight: bold;
+    }
+    form #meu-paragrafo {
+        display: block;
+        padding: 15px;
+        border-radius: 15px;
+        height: 100px;
+        width: 100%;
+    }
+
+    form #meu-titulo {
+        display: block;
+        padding: 15px;
+        border-radius: 15px;
+        height: 100px;
+        width: 100%;
+    }
+    #renderizar {
+        
+        text-align: center;
+        align-items: left;
+        
+    }
+    #btn-renderizar {
+        /* display: block; */
+        font-size: 20px;
+        padding: 15px;
+        margin: 20px;
+        border-radius: 15px;
+        text-align: center;
+        align-items: center; 
+    }
+    main {
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+    }
+    header {
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid;
+        background-color: rgb(200 200 200);
+
+        border-radius: 15px;
+        display: block;
+
+    }
+    
+    header a{
+        text-decoration: none;
+
+    }
+    footer p {
+        text-align: center;
+        font-size: 15px;
+    }
